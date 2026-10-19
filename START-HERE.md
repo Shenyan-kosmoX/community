@@ -26,6 +26,6 @@
 
 ## 需要一些研究支持
 
-[API 支持计划](docs/RESOURCES.md) 会说明申请方式和当前状态。你可以先把研究目标和下一步整理出来，参与讨论不需要等待额度申请。
+我们正在筹备免费的 API 支持计划。你可以先写下研究目标、已有基础，以及希望借助 AI 推进的下一步；[研究支持页面](docs/RESOURCES.md) 会更新资金筹备进展和申请安排。
 
 想知道我们为什么做这件事，可以读 [Manifesto](https://github.com/Shenyan-kosmoX/.github/blob/main/MANIFESTO.md)。

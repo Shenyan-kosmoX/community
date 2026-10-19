@@ -45,8 +45,8 @@ def render(root=ROOT):
     discussion = (f"[进入讨论区]({community_url}/discussions)" if cfg["discussions_enabled"]
                   else "讨论区尚未启用；分类和参与指引已准备")
     support = (f"[申请 API 支持]({community_url}/issues/new?template=api-support.yml)" if cfg["applications_open"]
-               else "API 支持申请尚未开放，进展会更新在[支持计划](docs/RESOURCES.md)")
-    data["availability"] = f"**当前状态：** {discussion}。{support}。"
+               else "我们正在寻求资金支持，后续将开放免费的 API 额度申请，详情见[研究支持计划](docs/RESOURCES.md)")
+    data["availability"] = f"{discussion}。{support}。"
     outputs = {}
     for name in ("community", "profile"):
         source = (root / "content" / f"{name}.md").read_text(encoding="utf-8")
@@ -61,7 +61,7 @@ def write(root, profile):
     cfg = load_config(root)
     rendered = render(root)
     support = root / ".github" / "ISSUE_TEMPLATE" / "api-support.yml"
-    if cfg["applications_open"] and "申请尚未开放" in (root / "docs" / "RESOURCES.md").read_text(encoding="utf-8"):
+    if cfg["applications_open"] and "<!-- resource-status:fundraising -->" in (root / "docs" / "RESOURCES.md").read_text(encoding="utf-8"):
         raise ValueError("Update actual resource conditions before enabling applications")
     if not cfg["applications_open"] and support.exists():
         raise ValueError("An active support form exists while applications are closed; review it explicitly")

@@ -1,14 +1,14 @@
 # 聊聊你在研究什么
 
-想法不用完整，问题也不用足够“高级”。讲清你遇到了什么，比把帖子写得像论文更有帮助。
+读到一篇有意思的论文，实验遇到一个解释不了的结果，或是想找人一起试一个方法，都可以在这里聊。
 
 <!-- status:start -->
-[打开讨论区](https://github.com/Shenyan-kosmoX/community/discussions)。目前有三个主要入口，GitHub 页面上的类别名分别是 General、Q&A 和 Ideas。
+[到讨论区聊聊 →](https://github.com/Shenyan-kosmoX/community/discussions)
 <!-- status:end -->
 
-## 有一个问题想聊聊
+## 分享一个想法
 
-在 [General · 研究问题与想法](https://github.com/Shenyan-kosmoX/community/discussions/categories/general) 发帖。可以讨论一个现象、一篇文章，或一个尚不确定怎么验证的想法。
+去 [研究问题与想法](https://github.com/Shenyan-kosmoX/community/discussions/categories/general) 分享你感兴趣的现象、文章或问题。
 
 比如，可以这样开始：
 
@@ -18,7 +18,7 @@
 
 ## 结果对不上，或方法用不顺
 
-在 [Q&A · 方法与复现交流](https://github.com/Shenyan-kosmoX/community/discussions/categories/q-a) 讨论。尽量带上版本、运行步骤、相关参数和观察到的差异。
+去 [方法与复现交流](https://github.com/Shenyan-kosmoX/community/discussions/categories/q-a)，说说你用了什么方法、期待看到什么，以及实际发生了什么。附上运行步骤或结果图，别人更容易跟着看。
 
 比如：
 
@@ -28,10 +28,10 @@
 
 ## 想把一件事持续做下去
 
-在 [Ideas · 项目提案](https://github.com/Shenyan-kosmoX/community/discussions/categories/ideas) 介绍你的研究方向、已经做的工作，以及希望得到哪种参与。具体内容见 [项目提案说明](PROJECT-INTAKE.md)。
+去 [项目提案](https://github.com/Shenyan-kosmoX/community/discussions/categories/ideas)，介绍你正在做的研究，以及希望找人一起推进的部分。可以是核对一个推导、补一个算法，也可以是把现有工具整理到别人能够使用。
 
-## 聊清楚之后
+[看看怎样介绍项目 →](PROJECT-INTAKE.md)
 
-有了具体的下一步，就在对应项目开 Issue，把原讨论链接过去。若讨论暂时没有结论，也可以留下当时考虑过的方法和疑问，等新的线索出现再接着聊。
+讨论有了下一步，可以接着 [一起动手](../CONTRIBUTING.md)。有些问题需要多想一阵，帖子也可以留着，等新线索出现时继续。
 
-分享前记得去掉密钥和私人信息。涉及他人的未公开研究，先征得对方同意。一起讨论时，请遵守 [基本交流规则](../CODE_OF_CONDUCT.md)。
+[交流约定](../CODE_OF_CONDUCT.md)

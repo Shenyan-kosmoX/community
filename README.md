@@ -15,7 +15,7 @@
 | 有个正在做的项目，想邀请别人加入 | [介绍你的项目](docs/PROJECT-INTAKE.md) |
 | 需要模型 API 额度来推进研究 | [了解支持计划](docs/RESOURCES.md) |
 
-**当前状态：** [进入讨论区](https://github.com/Shenyan-kosmoX/community/discussions)。API 支持申请尚未开放，进展会更新在[支持计划](docs/RESOURCES.md)。
+[进入讨论区](https://github.com/Shenyan-kosmoX/community/discussions)。我们正在寻求资金支持，后续将开放免费的 API 额度申请，详情见[研究支持计划](docs/RESOURCES.md)。
 
 ## 小一点的贡献，也值得留下
 

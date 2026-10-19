@@ -90,7 +90,7 @@ def check(root, profile=None):
             errors.append(f"Missing discussion form for {category['slug']}")
     if not cfg["applications_open"] and (root / ".github/ISSUE_TEMPLATE/api-support.yml").exists():
         errors.append("Resource intake form is enabled while applications are closed")
-    if cfg["applications_open"] and ("申请尚未开放" in (root / "docs/RESOURCES.md").read_text(encoding="utf-8") or not (root / ".github/ISSUE_TEMPLATE/api-support.yml").exists()):
+    if cfg["applications_open"] and ("<!-- resource-status:fundraising -->" in (root / "docs/RESOURCES.md").read_text(encoding="utf-8") or not (root / ".github/ISSUE_TEMPLATE/api-support.yml").exists()):
         errors.append("Resource status/form does not match active configuration")
     if cfg["discussions_enabled"] and "讨论区尚未启用" in (root / "docs/DISCUSSIONS.md").read_text(encoding="utf-8"):
         errors.append("Discussion status does not match active configuration")
