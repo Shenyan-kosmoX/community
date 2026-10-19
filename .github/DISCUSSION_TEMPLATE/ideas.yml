@@ -2,32 +2,29 @@ title: "[项目提案] "
 body:
   - type: markdown
     attributes:
-      value: 介绍你正在做的研究或工具，以及希望别人怎样加入。发帖后可提及项目提案说明中的联系人，后续在这篇帖子里继续沟通。
+      value: "介绍你的科研项目或工具。当前由 [@wenkuizhao261-pixel](https://github.com/wenkuizhao261-pixel) 接手提案，正式项目进入组织仓库，作者继续维护。"
   - type: textarea
-    id: problem
+    id: purpose
     attributes:
-      label: 你想持续研究什么？
-      description: 为什么这个问题让你愿意投入？接下来最想推进哪一步？
+      label: 项目想解决什么问题？
     validations:
       required: true
   - type: textarea
-    id: assets
+    id: progress
     attributes:
-      label: 已经做到哪里了？
-      description: 附代码、案例或研究记录，也说说目前还运行不了的部分。
+      label: 目前做到哪里？
+      description: 已有代码或案例时附上链接；也可以描述正在尝试的部分。
     validations:
       required: true
   - type: textarea
-    id: evidence
+    id: motivation
     attributes:
-      label: 怎样判断结果？目前还有什么拿不准？
-      description: 可以写已有参照、准备做的检查，或尚未找到合适方法的问题。
-    validations:
-      required: true
+      label: 为什么开始做这个项目？（选填）
   - type: textarea
-    id: stewardship
+    id: collaboration
     attributes:
-      label: 希望别人怎样参与？
-      description: 说说你准备负责什么、需要哪类帮助，以及希望开放的内容。
-    validations:
-      required: true
+      label: 希望得到什么帮助？（选填）
+  - type: textarea
+    id: maintenance
+    attributes:
+      label: 接下来准备怎样维护和开放？（选填）

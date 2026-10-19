@@ -1,38 +1,33 @@
-# 从一个问题开始，一起往下做
+# 参与 Shenyan-kosmoX
 
-欢迎来到 Shenyan-kosmoX。我们是一支正在科研与创业中探索的年轻团队，希望以 **AI for Science** 为主线，把自己使用和开发的科研工具开放出来，和更多人一起研究、检验与改进。
+这里是社区的公共交流入口。科研问题、项目提案和社区反馈在这里讨论；具体代码和研究任务在各项目仓库中推进。
 
-这里是公共交流与协作入口。讨论想法、介绍项目、反馈社区问题，都可以从这里开始。具体代码和研究任务留在各自的项目仓库里。
+[组织主页](https://github.com/Shenyan-kosmoX) · [发起团队](ABOUT.md) · [第一次参与](START-HERE.md)
 
-[认识发起团队](ABOUT.md) · [我们为什么出发](https://github.com/Shenyan-kosmoX/.github/blob/main/MANIFESTO.md) · [第一次来](START-HERE.md) · [研究与工具](docs/RESEARCH.md)
+## 找到你需要的入口
 
-## 你现在想做什么？
-
-| 想做的事 | 入口 |
+| 想做的事 | 直接前往 |
 | --- | --- |
-| 有个问题或想法，想找人讨论 | [写下你的问题](https://github.com/Shenyan-kosmoX/community/discussions/new?category=general) |
-| 复现结果对不上，或者遇到方法问题 | [交流方法与结果](https://github.com/Shenyan-kosmoX/community/discussions/new?category=q-a) |
-| 有个项目或工具，希望别人一起参与 | [介绍你的项目](https://github.com/Shenyan-kosmoX/community/discussions/new?category=ideas) |
-| 发现页面、链接或参与流程有问题 | [反馈社区问题](https://github.com/Shenyan-kosmoX/community/issues/new?template=community.yml) |
+| 分享问题、论文或想法 | [研究讨论](https://github.com/Shenyan-kosmoX/community/discussions/new?category=general) |
+| 交流方法、复现结果和工具使用 | [方法交流](https://github.com/Shenyan-kosmoX/community/discussions/new?category=q-a) |
+| 提交自己的项目或工具 | [项目提案](https://github.com/Shenyan-kosmoX/community/discussions/new?category=ideas) |
+| 反馈错字、坏链接或参与流程的问题 | [社区反馈](https://github.com/Shenyan-kosmoX/community/issues/new?template=community.yml) |
+
+项目提案目前由 [@wenkuizhao261-pixel](https://github.com/wenkuizhao261-pixel) 接手。正式加入的项目放在组织仓库中，作者继续维护项目。[了解接入步骤](docs/PROJECT-INTAKE.md)。
 
 [进入讨论区](https://github.com/Shenyan-kosmoX/community/discussions)。我们正在寻求资金支持，后续将开放免费的 API 额度申请，详情见[研究支持计划](docs/RESOURCES.md)。
 
-## 提案发出以后，谁来接手？
+## 准备提交工作
 
-首版由 [@wenkuizhao261-pixel](https://github.com/wenkuizhao261-pixel) 接手项目提案，和作者在同一帖子里讨论下一步。正式接入后，作者继续维护自己的项目，其他人通过项目的 Issue 和 PR 参与。
+[贡献指南](CONTRIBUTING.md) 介绍修改和提交步骤，[项目整理说明](docs/RESEARCH-CONTRACT.md) 帮助作者准备代码与使用案例。想讲述开发中的经历，可以参考 [开发记录](docs/DEVELOPMENT-NOTES.md)。
 
-[怎样介绍项目](docs/PROJECT-INTAKE.md) · [联系与协作](GOVERNANCE.md)
+提交后会进行自动检查和成员审核。遇到有争议的问题，可以在 PR 中保留不同意见，也可以转到讨论区继续交流。[了解审核过程](docs/REVIEW.md)。
 
-## 小一点的工作，也值得留下
+[贡献与致谢](docs/RECOGNITION.md) · [交流约定](CODE_OF_CONDUCT.md) · [联系与协作](GOVERNANCE.md)
 
-你可能补了一条安装说明，发现一次计算对参数很敏感，或者独立核对了一个结果。这些工作都能帮到后来的人。
+<details>
+<summary>维护者资料</summary>
 
-提交时，尽量让别人能够跟着做一遍：用了哪个版本，输入什么，怎样运行，得到什么，以及你还有哪些疑问。准备整理项目时，也可以写写最初为什么动手、哪些尝试改变了你的判断。
+[维护与发布](docs/OPERATIONS.md) · [组织迁移](docs/MIGRATION.md) · [许可说明](LICENSING.md)
 
-[怎样贡献](CONTRIBUTING.md) · [整理一份项目交付](docs/RESEARCH-CONTRACT.md) · [写下开发经历](docs/DEVELOPMENT-NOTES.md) · [贡献与引用](docs/RECOGNITION.md)
-
-## 维护者入口
-
-[自动检查与审核](docs/REVIEW.md) · [规则与许可](LICENSING.md) · [维护与迁移](docs/OPERATIONS.md)
-
-一起交流时，请遵守 [基本交流规则](CODE_OF_CONDUCT.md)。
+</details>

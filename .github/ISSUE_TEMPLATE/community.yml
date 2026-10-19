@@ -1,27 +1,16 @@
-name: 公共事务与改进
-description: 社区文档、参与流程、资源规则或跨项目事项
+name: 社区反馈
+description: 页面、链接或参与流程遇到了问题
 title: "[community] "
 body:
-  - type: markdown
-    attributes:
-      value: 科研任务请优先提交到对应项目仓库。只填写可公开信息。
   - type: textarea
     id: problem
     attributes:
-      label: 现在遇到什么问题
-      description: 附相关页面、讨论或可复现步骤。
+      label: 遇到了什么问题？
+      description: 可以附页面链接、截图或操作步骤。
     validations:
       required: true
   - type: textarea
     id: outcome
     attributes:
-      label: 希望改善什么
-    validations:
-      required: true
-  - type: textarea
-    id: evidence
-    attributes:
-      label: 如何判断改善有效
-      description: 可以是一次具体操作、一处文档修正或可检查的标准。
-    validations:
-      required: true
+      label: 你建议怎样改？
+      description: 有想法可以写下来，也可以留空。

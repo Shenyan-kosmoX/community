@@ -4,7 +4,7 @@ title: "[support] "
 body:
   - type: markdown
     attributes:
-      value: 仅在支持计划实际开放后启用此表单。不要提交密钥、私有文件或私人工作轨迹。提交申请不代表额度已获批准。
+      value: 介绍你准备开展的研究，以及模型 API 将用在哪些工作中。请填写可以公开的内容，密钥通过私密渠道交付。
   - type: input
     id: project
     attributes:
@@ -26,8 +26,8 @@ body:
   - type: textarea
     id: delivery
     attributes:
-      label: 开放交付与验收依据
-      description: 说明代码、配置、验证、结果及拟采用的许可；阴性结果也可以交付。
+      label: 这阶段准备完成和分享什么？
+      description: 例如一个可运行案例、一项方法检查或研究记录，并说明怎样判断这一步完成。
     validations:
       required: true
   - type: textarea

@@ -1,25 +1,25 @@
-# 我们为什么建立 Shenyan
+# 发起团队
 
-我们是一支正在科研与创业中探索的年轻团队。研究中的疑问、产品开发中的麻烦，以及想把事情做好的念头，让我们开始与 AI 一起工作，也开始重新考虑自己能够做些什么。
+我们是一支正在科研与创业中探索的年轻团队。建立 Shenyan 的想法，来自自己手头的研究与工具开发。
 
-团队中的成员有各自的方向和经历。目前的实践包括把物理计算方法逐步整理成工具箱，也包括为公众号内容整理与排版开发工具。我们共同关心的是：这些尝试怎样从个人电脑里的成果，变成其他人也能使用和改进的东西。
+把论文中的方法变成程序以后，工作往往还没有结束。参数需要核对，结果需要解释，有时还要换一种方法重新计算。与 AI 合作，让一些原本难以独自推进的工作有了进展，也让我们开始考虑：这些方法和经验，怎样才能让其他人用起来？
 
-## 先从 AI for Science 做起
+## 从自己的工作开始
 
-Shenyan-kosmoX 是我们发起的开放科研共同体，以 AI for Science 为主线。我们围绕科学问题建设可运行的模型、工具和研究环境，也整理复现案例、验证方法和开发过程。
+目前的实践包括 Floquet–Maxwell 计算工具箱，以及微信公众号内容整理与排版工具。这两项工作来自不同的需要：前者围绕物理问题逐步增加计算与验证方法，后者把观察到的内容样式整理成可以使用的模板和工具。
 
-这里也会分享团队在研究与创作中做出的 skill 和工具。它们各自说明用途与使用方法，帮助不同的人找到自己用得上的部分。
+做这些工作的成员有自己的经历与判断。整理项目时，我们也希望留下他们为什么开始、如何取舍，以及准备继续解决什么问题。项目与开发记录正在准备公开。
 
-## 为什么值得一起做
+## 为什么建立一个共同体
 
-一个工具能运行，只是别人开始使用它的一步。作者为什么这样设计，哪里改过，什么情况下结果会变化，这些经验也值得留下。
+如果工具只留在作者的电脑里，其他人仍然需要重新准备很多东西。我们选择把工作开放出来，让更多人能够使用、检查和改进，也希望新的参与者带来我们没有想到的问题。
 
-我们希望项目背后能看见具体的人。项目作者讲述自己的选择，团队共同说明社区的方向。后来加入的人也可以提出不同看法，带来新的问题，继续发展这些工作。
+Shenyan 以 AI for Science 为主线。我们从实际科研项目做起，逐步整理代码、运行案例与验证方法；同时分享研究和创作中开发的工具。团队通过创业与产品工作寻找长期建设所需的资源。
 
-[读完整的创始宣言](https://github.com/Shenyan-kosmoX/.github/blob/main/MANIFESTO.md)
+[我们的理念](https://github.com/Shenyan-kosmoX/.github/blob/main/MANIFESTO.md)
 
-## 找到我们
+## 联系我们
 
-初期项目提案由 [@wenkuizhao261-pixel](https://github.com/wenkuizhao261-pixel) 接手。可以直接 [介绍你的项目](https://github.com/Shenyan-kosmoX/community/discussions/new?category=ideas)，也可以先 [聊一个问题](https://github.com/Shenyan-kosmoX/community/discussions/new?category=general)。
+目前可以通过 GitHub 联系 [@wenkuizhao261-pixel](https://github.com/wenkuizhao261-pixel)。项目提案请发在 [这里](https://github.com/Shenyan-kosmoX/community/discussions/new?category=ideas)，具体想法和问题可以到 [讨论区](https://github.com/Shenyan-kosmoX/community/discussions) 交流。
 
-社区由创业团队发起和支持，公开成果按照各项目许可证复用。贡献与数据使用的具体约定见 [许可说明](LICENSING.md)；谁负责哪些事情见 [联系与协作](GOVERNANCE.md)。
+<!-- Future contact block: add founder-supplied public email and WeChat QR image here. -->

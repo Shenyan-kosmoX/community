@@ -1,5 +1,5 @@
-# 理念的正式来源
+# 社区理念
 
-完整 Manifesto 维护在组织 `.github` 仓库中：[阅读 Manifesto](https://github.com/Shenyan-kosmoX/.github/blob/main/MANIFESTO.md)。
+[阅读 Manifesto](https://github.com/Shenyan-kosmoX/.github/blob/main/MANIFESTO.md)，了解我们对人的可能性、技术与开放知识的看法。
 
-本仓库承载理念在参与和协作中的实践，不复制第二份宣言。迁移时更新组织路由，并检查两仓库之间的链接。
+想认识发起团队，可以阅读 [团队介绍](ABOUT.md)。

@@ -27,14 +27,14 @@ python -m unittest discover -s tests -v
 
 ## 标签与分支规则
 
-拟采用少量标签：`kind:reproduction`、`kind:development`、`kind:exploration`、`area:community`、`support:api`、`review:needed`，状态使用 Issue/PR 原生状态和分配人。只在需要的仓库创建，不预建任务市场。
+已创建标签：`kind:reproduction`、`kind:development`、`kind:exploration`、`area:community`、`support:api`、`review:needed`。工作状态使用 Issue/PR 原生状态和分配人。
 
-公开仓库首次发布后运行一次 CI，再配置要求 PR 与相应检查。初期只有一位已确认维护者，平台不强制第二人的批准，不假装存在独立审核团队；维护者需在 PR 留下实际判断。待有另一位确认的审核者后再启用强制批准。默认不自动合并。CODEOWNERS 指向实际有写权限的维护者；它不表示独立科学审核完成。
+两个公开仓库已配置 PR 与必要检查，管理员保留绕过权限；当前强制批准数为 0。日常审核由内部成员在 PR 记录意见，平台审批规则随实际成员安排调整。CODEOWNERS 指向具有写权限的维护者。科学审核记录检查人、范围和判断，另见 [审核过程](REVIEW.md)。
 
 ## 修改配置
 
 `community.json` 中的维护者配置会生成首页提案联系人、CODEOWNERS 和公共仓库联络。初期联系人为 @wenkuizhao261-pixel；更换时同时更新 GOVERNANCE、项目提案说明和 Discussion 表单，并核对实际权限。开发记录写在项目仓库，公共目录只链接已经发布的文章。
 
-原始 `community` LICENSE 为 MIT，保持不变。图像有独立来源。科研项目公开前另做范围与许可检查，不能继承本仓库的科学认证或许可证。
+`community` 原创内容使用 MIT。图像按各自来源处理；科研项目分别确定代码、数据和参考材料的许可。
 
-本地验证通过不证明远程功能启用。发布需要单独授权，并逐项核对主页、讨论表单、PR 工作流、分支规则和头像。
+发布后逐项核对主页、讨论表单、PR 工作流、分支规则和头像的实际状态，保留部署记录。正式项目上传规范待两个参考项目提供后再完善。
