@@ -1,0 +1,46 @@
+name: API 研究支持
+description: 为明确的开放科研阶段申请模型 API 额度
+title: "[support] "
+body:
+  - type: markdown
+    attributes:
+      value: 仅在支持计划实际开放后启用此表单。不要提交密钥、私有文件或私人工作轨迹。提交申请不代表额度已获批准。
+  - type: input
+    id: project
+    attributes:
+      label: 项目或研究提案链接
+    validations:
+      required: true
+  - type: textarea
+    id: goal
+    attributes:
+      label: 本阶段研究目标与 API 用途
+    validations:
+      required: true
+  - type: textarea
+    id: budget
+    attributes:
+      label: 预计调用需求、期限及估算依据
+    validations:
+      required: true
+  - type: textarea
+    id: delivery
+    attributes:
+      label: 开放交付与验收依据
+      description: 说明代码、配置、验证、结果及拟采用的许可；阴性结果也可以交付。
+    validations:
+      required: true
+  - type: textarea
+    id: limits
+    attributes:
+      label: 不能公开的材料类型与限制
+      description: 仅说明类型，不上传材料。
+  - type: checkboxes
+    id: agreement
+    attributes:
+      label: 申请确认
+      options:
+        - label: 我理解资源有限、申请需审核；开放范围与许可须在接受支持前确认。
+          required: true
+        - label: 我没有提交密钥或未经许可的私人材料。
+          required: true
