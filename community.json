@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "organization": "Shenyan-kosmoX",
+  "display_name": "SHENYAN · kosmoX",
+  "community_repository": "community",
+  "profile_repository": ".github",
+  "default_branch": "main",
+  "maintainers": ["wenkuizhao261-pixel"],
+  "applications_open": false,
+  "discussions_enabled": true,
+  "projects": [],
+  "discussion_categories": [
+    {"name": "研究问题与想法", "github_name": "General", "slug": "general", "format": "open-ended"},
+    {"name": "方法与复现交流", "github_name": "Q&A", "slug": "q-a", "format": "question-answer"},
+    {"name": "项目提案", "github_name": "Ideas", "slug": "ideas", "format": "open-ended"}
+  ]
+}

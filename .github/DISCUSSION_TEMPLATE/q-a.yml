@@ -1,0 +1,19 @@
+title: "[方法交流] "
+body:
+  - type: textarea
+    id: context
+    attributes:
+      label: 方法、论文或项目版本
+    validations:
+      required: true
+  - type: textarea
+    id: observation
+    attributes:
+      label: 观察到了什么
+      description: 区分输入条件、实际结果和推测原因。
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: 可公开的复现步骤与限制

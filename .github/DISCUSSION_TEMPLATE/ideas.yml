@@ -1,0 +1,27 @@
+title: "[项目提案] "
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: 长期研究问题与项目目标
+    validations:
+      required: true
+  - type: textarea
+    id: assets
+    attributes:
+      label: 真实已有基础与最小运行案例
+      description: 链接代码或材料；尚未实现的部分标明。
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 判断依据与已知限制
+    validations:
+      required: true
+  - type: textarea
+    id: stewardship
+    attributes:
+      label: 维护意愿、贡献入口与开放范围
+    validations:
+      required: true

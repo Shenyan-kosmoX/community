@@ -1,0 +1,54 @@
+name: Research review
+on:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: research-review-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+jobs:
+  structure-and-policy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.12'
+      - name: Check research contract without running project commands
+        run: python tools/research_check.py --report research-report.json
+  run-declared-checks:
+    needs: structure-and-policy
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.12'
+      - name: Run declared install, smoke and verification
+        run: python tools/research_check.py --run --report research-report.json
+      - name: Show actual result even on failure
+        if: always()
+        run: python -c "from pathlib import Path; p=Path('research-report.json'); print(p.read_text() if p.exists() else 'No report produced; execution did not complete.')"
+  review-sensitive-changes:
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.12'
+      - name: Highlight changes to evidence and validation
+        env:
+          REVIEW_BASE: ${{ github.event.pull_request.base.sha }}
+        run: python tools/sensitive_changes.py --base "$REVIEW_BASE"

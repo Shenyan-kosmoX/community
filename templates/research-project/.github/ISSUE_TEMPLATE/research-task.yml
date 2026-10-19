@@ -1,0 +1,38 @@
+name: 研究与环境任务
+description: 复现、环境开发或开放探索
+body:
+  - type: dropdown
+    id: kind
+    attributes:
+      label: 工作类别
+      options:
+        - 论文复现
+        - 环境开发
+        - 开放探索
+    validations:
+      required: true
+  - type: textarea
+    id: goal
+    attributes:
+      label: 当前状态与待解决的问题
+    validations:
+      required: true
+  - type: textarea
+    id: constraints
+    attributes:
+      label: 固定条件与边界
+    validations:
+      required: true
+  - type: textarea
+    id: delivery
+    attributes:
+      label: 预期交付与验收依据
+      description: 探索可以没有参考答案，但应有过程和证据要求。
+    validations:
+      required: true
+  - type: textarea
+    id: references
+    attributes:
+      label: 独立参照、已有材料和已知限制
+    validations:
+      required: true

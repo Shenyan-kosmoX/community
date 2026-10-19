@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "project_name": "",
+  "maintainers": [],
+  "kind": "development",
+  "python_version": "3.12",
+  "supported_platforms": ["linux"],
+  "dependency_file": "requirements.txt",
+  "license_file": "LICENSE",
+  "runbook": "docs/RUN.md",
+  "criteria_file": "docs/CRITERIA.md",
+  "evidence_file": "docs/EVIDENCE.md",
+  "limits_file": "docs/LIMITS.md",
+  "provenance_file": "docs/PROVENANCE.md",
+  "commands": {"install": [], "smoke": [], "verify": []},
+  "timeout_seconds": 300,
+  "manual_review_reason": "",
+  "references": [],
+  "expected_outputs": []
+}
