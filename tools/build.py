@@ -27,6 +27,7 @@ def render(root=ROOT):
     community_url = f"https://github.com/{org}/{cfg['community_repository']}"
     profile_url = f"https://github.com/{org}/{cfg['profile_repository']}"
     data = dict(cfg)
+    data["lead_maintainer"] = cfg["maintainers"][0]
     data.update(community_base=f"{community_url}/blob/{branch}",
                 profile_base=f"{profile_url}/blob/{branch}",
                 asset_base=f"https://raw.githubusercontent.com/{org}/{cfg['profile_repository']}/{branch}/profile/assets")

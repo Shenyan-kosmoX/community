@@ -1,31 +1,31 @@
 # 第一次来，从哪里开始？
 
-不用一次读完所有文档。选一件与你现在有关的事就好。
+我们是一支以 AI for Science 为主线开展开放科研的团队。你可以先 [认识我们](ABOUT.md)，也可以直接挑一件与你现在有关的事。
 
-## 有一个问题，还说不太清楚
+## 我有个问题想讨论
 
-去 [研究讨论](docs/DISCUSSIONS.md) 写下它。可以附一篇论文、一张你有权分享的图，或者一段自己的理解。告诉大家你对哪里好奇、哪里拿不准。
+[写下你的问题](https://github.com/Shenyan-kosmoX/community/discussions/new?category=general)。可以是一篇论文中的疑问，一个观察到的现象，或一个跨领域的想法。说说你已经想到哪里，希望继续弄清什么。
 
-“这个方法能不能用在另一个领域？”“这里为什么要作这个假设？”都可以成为一场讨论的开头。
+## 我的结果对不上，或工具用不顺
 
-## 想先动手试试
+[交流方法与结果](https://github.com/Shenyan-kosmoX/community/discussions/new?category=q-a)。写下工具版本、运行步骤，以及期待的结果和实际输出。附一个小案例，别人更容易跟着检查。
 
-从 [研究目录](docs/RESEARCH.md) 找一个感兴趣的项目，跟着它的最小案例运行。首批项目正在整理，公开后会在目录中列出。
+## 我想贡献一点工作
 
-遇到问题时，记录运行命令、使用的版本和报错。你发现的一处说明缺漏，可能也是下一个人会卡住的地方。
+已有项目的问题在它自己的仓库提出。社区页面或参与流程的问题可以 [直接反馈](https://github.com/Shenyan-kosmoX/community/issues/new?template=community.yml)，小的文档修正也可以提交 PR。
 
-## 已经发现了可以改进的地方
+第一次参与时，[贡献指南](CONTRIBUTING.md) 可以帮助你走完步骤。
 
-去对应项目开一个 Issue，说清问题和你的想法。小的文档修正可以直接提交 PR；涉及模型、算法或较多工作的改动，先讨论范围，能减少重复劳动。
+## 我有一个项目或工具想分享
 
-[贡献指南](CONTRIBUTING.md) 介绍了具体步骤。第一次用 GitHub，可以先通过 Issue 描述问题，再决定是否动手改代码。
+[介绍你的项目](https://github.com/Shenyan-kosmoX/community/discussions/new?category=ideas)。首版由 [@wenkuizhao261-pixel](https://github.com/wenkuizhao261-pixel) 接手，项目作者继续维护自己的工作。
 
-## 有一个想继续做的项目
+代码、使用案例和需要帮助的地方可以先写出来，开发经历以后慢慢补充。具体准备见 [项目提案说明](docs/PROJECT-INTAKE.md)。
 
-按 [项目提案说明](docs/PROJECT-INTAKE.md) 介绍你的问题、已有工作，以及希望别人怎样参与。项目可以还很小，也可以有不少没有解决的部分。
+## 我想先试用已有项目
 
-## 需要一些研究支持
+[研究与工具目录](docs/RESEARCH.md) 会陆续加入首批项目，包括代码、运行案例和贡献入口。
 
-我们正在筹备免费的 API 支持计划。你可以先写下研究目标、已有基础，以及希望借助 AI 推进的下一步；[研究支持页面](docs/RESOURCES.md) 会更新资金筹备进展和申请安排。
+## 我需要 API 支持
 
-想知道我们为什么做这件事，可以读 [Manifesto](https://github.com/Shenyan-kosmoX/.github/blob/main/MANIFESTO.md)。
+我们正在寻求资金支持，筹备免费的 API 计划。可以先整理研究目标、已有基础，以及希望借助 AI 推进的下一步。[研究支持页面](docs/RESOURCES.md) 会更新筹备进展和申请安排。
