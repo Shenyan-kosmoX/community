@@ -1,27 +1,33 @@
 title: "[项目提案] "
 body:
+  - type: markdown
+    attributes:
+      value: 介绍一下你在做的事，以及希望别人怎样加入。项目可以还很小，尚未解决的问题也可以一起讨论。
   - type: textarea
     id: problem
     attributes:
-      label: 长期研究问题与项目目标
+      label: 你想持续研究什么？
+      description: 为什么这个问题让你愿意投入？接下来最想推进哪一步？
     validations:
       required: true
   - type: textarea
     id: assets
     attributes:
-      label: 真实已有基础与最小运行案例
-      description: 链接代码或材料；尚未实现的部分标明。
+      label: 已经做到哪里了？
+      description: 附代码、案例或研究记录，也说说目前还运行不了的部分。
     validations:
       required: true
   - type: textarea
     id: evidence
     attributes:
-      label: 判断依据与已知限制
+      label: 怎样判断结果？目前还有什么拿不准？
+      description: 可以写已有参照、准备做的检查，或尚未找到合适方法的问题。
     validations:
       required: true
   - type: textarea
     id: stewardship
     attributes:
-      label: 维护意愿、贡献入口与开放范围
+      label: 希望别人怎样参与？
+      description: 说说你准备负责什么、需要哪类帮助，以及希望开放的内容。
     validations:
       required: true

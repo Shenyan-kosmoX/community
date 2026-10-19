@@ -90,7 +90,7 @@ def check(root, profile=None):
             errors.append(f"Missing discussion form for {category['slug']}")
     if not cfg["applications_open"] and (root / ".github/ISSUE_TEMPLATE/api-support.yml").exists():
         errors.append("Resource intake form is enabled while applications are closed")
-    if cfg["applications_open"] and ("申请尚未开放" in (root / "docs/RESOURCES.md").read_text(encoding="utf-8") or not (root / ".github/ISSUE_TEMPLATE/api-support.yml").exists()):
+    if cfg["applications_open"] and ("<!-- resource-status:fundraising -->" in (root / "docs/RESOURCES.md").read_text(encoding="utf-8") or not (root / ".github/ISSUE_TEMPLATE/api-support.yml").exists()):
         errors.append("Resource status/form does not match active configuration")
     if cfg["discussions_enabled"] and "讨论区尚未启用" in (root / "docs/DISCUSSIONS.md").read_text(encoding="utf-8"):
         errors.append("Discussion status does not match active configuration")
@@ -108,7 +108,7 @@ def check(root, profile=None):
             errors.append("Profile README drift: rebuild")
         for path in profile.rglob("*.md"):
             errors.extend(local_links(path))
-        for required_asset in ("profile/assets/hero.jpg", "profile/assets/avatar.png", "profile/assets/mark.svg", "ASSET-SOURCES.md", "MANIFESTO.md", "LICENSE"):
+        for required_asset in ("profile/assets/hero.png", "profile/assets/avatar.png", "profile/assets/mark.svg", "ASSET-SOURCES.md", "MANIFESTO.md", "LICENSE"):
             if not (profile / required_asset).is_file():
                 errors.append(f"Missing profile asset: {required_asset}")
         # Resolve our own cross-repository links against the staged repositories.

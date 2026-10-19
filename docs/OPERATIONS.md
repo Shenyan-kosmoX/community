@@ -23,7 +23,7 @@ python -m unittest discover -s tests -v
 
 ## API 支持
 
-先由维护者确认实际可用额度、审批责任与私下交付渠道；更新 `docs/RESOURCES.md`。将 `applications_open` 改为 true 后重建，才会把表单放入生效目录。当前只准备流程，不授予额度。
+先由维护者确认实际可用额度、审批责任与私下交付渠道；更新 `docs/RESOURCES.md`，并移除 `<!-- resource-status:fundraising -->` 筹备标记。将 `applications_open` 改为 true 后重建，才会把表单放入生效目录。当前正在寻求资金支持。
 
 ## 标签与分支规则
 

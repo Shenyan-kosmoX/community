@@ -2,18 +2,20 @@ title: "[研究问题] "
 body:
   - type: markdown
     attributes:
-      value: 可以带着尚未成形的想法开始。不要求已有答案，只分享有权公开的材料。
+      value: 有个想法想聊聊，或遇到了一个一直没想明白的问题？从你现在知道的地方说起就好。
   - type: textarea
     id: question
     attributes:
-      label: 你想理解什么
+      label: 什么问题让你感到好奇？
+      description: 可以是一篇文章、一个现象，也可以是你自己的疑问。
     validations:
       required: true
   - type: textarea
     id: basis
     attributes:
-      label: 已有观察、依据或尝试
+      label: 你已经看过或试过什么？
+      description: 有参考或记录就附上；刚开始想这个问题也没关系。
   - type: textarea
     id: help
     attributes:
-      label: 希望得到什么讨论或帮助
+      label: 想和大家一起想清楚哪一部分？
