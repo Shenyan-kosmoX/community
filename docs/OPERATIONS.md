@@ -33,6 +33,8 @@ python -m unittest discover -s tests -v
 
 ## 修改配置
 
+`community.json` 中的维护者配置会生成首页提案联系人、CODEOWNERS 和公共仓库联络。初期联系人为 @wenkuizhao261-pixel；更换时同时更新 GOVERNANCE、项目提案说明和 Discussion 表单，并核对实际权限。开发记录写在项目仓库，公共目录只链接已经发布的文章。
+
 原始 `community` LICENSE 为 MIT，保持不变。图像有独立来源。科研项目公开前另做范围与许可检查，不能继承本仓库的科学认证或许可证。
 
 本地验证通过不证明远程功能启用。发布需要单独授权，并逐项核对主页、讨论表单、PR 工作流、分支规则和头像。

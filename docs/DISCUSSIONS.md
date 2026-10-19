@@ -6,6 +6,8 @@
 [到讨论区聊聊 →](https://github.com/Shenyan-kosmoX/community/discussions)
 <!-- status:end -->
 
+想直接发帖，可以选 [研究想法](https://github.com/Shenyan-kosmoX/community/discussions/new?category=general)、[方法交流](https://github.com/Shenyan-kosmoX/community/discussions/new?category=q-a) 或 [项目提案](https://github.com/Shenyan-kosmoX/community/discussions/new?category=ideas)。登录 GitHub 后即可填写。
+
 ## 分享一个想法
 
 去 [研究问题与想法](https://github.com/Shenyan-kosmoX/community/discussions/categories/general) 分享你感兴趣的现象、文章或问题。

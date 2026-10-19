@@ -2,7 +2,7 @@ title: "[项目提案] "
 body:
   - type: markdown
     attributes:
-      value: 介绍一下你在做的事，以及希望别人怎样加入。项目可以还很小，尚未解决的问题也可以一起讨论。
+      value: 介绍你正在做的研究或工具，以及希望别人怎样加入。发帖后可提及项目提案说明中的联系人，后续在这篇帖子里继续沟通。
   - type: textarea
     id: problem
     attributes:
