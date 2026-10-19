@@ -108,7 +108,7 @@ def check(root, profile=None):
             errors.append("Profile README drift: rebuild")
         for path in profile.rglob("*.md"):
             errors.extend(local_links(path))
-        for required_asset in ("profile/assets/hero.jpg", "profile/assets/avatar.png", "profile/assets/mark.svg", "ASSET-SOURCES.md", "MANIFESTO.md", "LICENSE"):
+        for required_asset in ("profile/assets/hero.png", "profile/assets/avatar.png", "profile/assets/mark.svg", "ASSET-SOURCES.md", "MANIFESTO.md", "LICENSE"):
             if not (profile / required_asset).is_file():
                 errors.append(f"Missing profile asset: {required_asset}")
         # Resolve our own cross-repository links against the staged repositories.

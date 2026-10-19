@@ -41,11 +41,11 @@ def render(root=ROOT):
             rows.append(f"| [{p['name']}]({p['url']}) | {p['direction']} | {p['status']} |")
         data["project_section"] = "\n".join(rows)
     else:
-        data["project_section"] = "首批项目正在准备公开接入。本页将链接实际可运行的仓库、能力说明与验证记录；尚未接入的研究不计为已发布成果。"
+        data["project_section"] = "**首批项目整理中。** 公开后，你可以在这里找到代码、运行案例和接下来想一起解决的问题。"
     discussion = (f"[进入讨论区]({community_url}/discussions)" if cfg["discussions_enabled"]
                   else "讨论区尚未启用；分类和参与指引已准备")
     support = (f"[申请 API 支持]({community_url}/issues/new?template=api-support.yml)" if cfg["applications_open"]
-               else "API 支持申请尚未开放，实际额度和交付渠道确认后再启用")
+               else "API 支持申请尚未开放，进展会更新在[支持计划](docs/RESOURCES.md)")
     data["availability"] = f"**当前状态：** {discussion}。{support}。"
     outputs = {}
     for name in ("community", "profile"):

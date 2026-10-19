@@ -1,19 +1,24 @@
 title: "[方法交流] "
 body:
+  - type: markdown
+    attributes:
+      value: 结果对不上，或不确定方法哪里出了问题，可以把记录带来一起看。请先去掉密钥和私人信息。
   - type: textarea
     id: context
     attributes:
-      label: 方法、论文或项目版本
+      label: 你在使用什么方法或项目？
+      description: 附论文链接、工具名称或版本。
     validations:
       required: true
   - type: textarea
     id: observation
     attributes:
-      label: 观察到了什么
-      description: 区分输入条件、实际结果和推测原因。
+      label: 期待看到什么，实际发生了什么？
+      description: 先描述观察，再写你的推测；报错或结果图也有帮助。
     validations:
       required: true
   - type: textarea
     id: reproduction
     attributes:
-      label: 可公开的复现步骤与限制
+      label: 怎样让别人试一次？
+      description: 写下命令、关键参数和输入。还没有整理成小案例，也可以先说明做到哪里。
