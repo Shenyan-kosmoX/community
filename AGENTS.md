@@ -2,6 +2,8 @@
 
 This repository hosts public community collaboration, not private company strategy.
 
+Public display name: 深研. Keep GitHub organization/repository URLs and identifiers as Shenyan-kosmoX. The two founder-supplied essays under stories/ retain their authored wording; edits should follow explicit author feedback. Team background belongs in ABOUT and the essays; Manifesto keeps its philosophical scope.
+
 - Keep claims grounded. Do not invent projects, members, research outcomes, grants, or independent reviews.
 - `community.json` is the identity and routing configuration; `content/` contains homepage sources. Run `python tools/build.py --profile ../Shenyan-kosmoX-profile` after changing them.
 - Keep project scientific work in its own repository. A discussion becomes an issue only when there is concrete work; link instead of duplicating status.

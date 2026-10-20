@@ -1,6 +1,6 @@
 # 提交项目
 
-社区接收以 AI for Science 为主线的科研项目，也欢迎研究与创作中使用的 skill 和工具。正式加入的项目放在 Shenyan-kosmoX 的组织仓库中，由作者继续维护。
+社区接收以 AI for Science 为主线的科研项目，也欢迎研究与创作中使用的 skill 和工具。正式加入的项目放在深研的组织仓库中，由作者继续维护。
 
 [介绍你的项目 →](https://github.com/Shenyan-kosmoX/community/discussions/new?category=ideas)
 
