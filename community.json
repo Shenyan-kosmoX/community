@@ -5,13 +5,45 @@
   "community_repository": "community",
   "profile_repository": ".github",
   "default_branch": "main",
-  "maintainers": ["wenkuizhao261-pixel"],
+  "maintainers": [
+    "wenkuizhao261-pixel"
+  ],
   "applications_open": false,
   "discussions_enabled": true,
-  "projects": [],
+  "projects": [
+    {
+      "name": "Floquet–Maxwell",
+      "direction": "时空调制光子晶体、开放动力学与散射",
+      "status": "MIT开源 · 17类能力与20项研究案例",
+      "url": "https://github.com/Shenyan-kosmoX/floquet-maxwell",
+      "verified": true
+    },
+    {
+      "name": "EcoDynamics",
+      "direction": "生态稳定性、瞬态响应、时滞与群落组装",
+      "status": "MIT开源 · 9类能力与8项研究案例",
+      "url": "https://github.com/Shenyan-kosmoX/ecodynamics",
+      "verified": true
+    }
+  ],
   "discussion_categories": [
-    {"name": "研究问题与想法", "github_name": "General", "slug": "general", "format": "open-ended"},
-    {"name": "方法与复现交流", "github_name": "Q&A", "slug": "q-a", "format": "question-answer"},
-    {"name": "项目提案", "github_name": "Ideas", "slug": "ideas", "format": "open-ended"}
+    {
+      "name": "研究问题与想法",
+      "github_name": "General",
+      "slug": "general",
+      "format": "open-ended"
+    },
+    {
+      "name": "方法与复现交流",
+      "github_name": "Q&A",
+      "slug": "q-a",
+      "format": "question-answer"
+    },
+    {
+      "name": "项目提案",
+      "github_name": "Ideas",
+      "slug": "ideas",
+      "format": "open-ended"
+    }
   ]
 }

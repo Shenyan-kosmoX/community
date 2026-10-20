@@ -1,25 +1,33 @@
-# 我们为什么建立 Shenyan
+# 发起团队
 
-我们是一支正在科研与创业中探索的年轻团队。研究中的疑问、产品开发中的麻烦，以及想把事情做好的念头，让我们开始与 AI 一起工作，也开始重新考虑自己能够做些什么。
+我们是一支从自己的科研与工具开发出发，逐步建设开放科研社区的团队。Shenyan 的想法，来自那些每天都在发生的小事：读懂一个陌生模型，把一种方法写成程序，终于得到可以解释的结果，以及希望有人能够接着这份工作往下走。
 
-团队中的成员有各自的方向和经历。目前的实践包括把物理计算方法逐步整理成工具箱，也包括为公众号内容整理与排版开发工具。我们共同关心的是：这些尝试怎样从个人电脑里的成果，变成其他人也能使用和改进的东西。
+把论文中的方法变成程序以后，工作往往还没有结束。参数需要核对，结果需要解释，有时还要换一种方法重新计算。与 AI 合作，让一些原本难以独自推进的工作有了进展，也让我们更认真地整理模型、运行条件和核对方法。工具能够被别人实际用起来，研究中的投入就有了更长的生命。
 
-## 先从 AI for Science 做起
+## 从自己的工作开始
 
-Shenyan-kosmoX 是我们发起的开放科研共同体，以 AI for Science 为主线。我们围绕科学问题建设可运行的模型、工具和研究环境，也整理复现案例、验证方法和开发过程。
+目前已经公开的科研实践包括 [Floquet–Maxwell](https://github.com/Shenyan-kosmoX/floquet-maxwell) 与 [EcoDynamics](https://github.com/Shenyan-kosmoX/ecodynamics)。
 
-这里也会分享团队在研究与创作中做出的 skill 和工具。它们各自说明用途与使用方法，帮助不同的人找到自己用得上的部分。
+Floquet–Maxwell 从 Legume 的静态电磁模式与场出发，逐步建设材料调制、Floquet 动力学、辐射和响应计算。不同论文带来不同的问题，也推动我们把场投影、模式身份、运行环境与独立比较整理成可复用的接口。
 
-## 为什么值得一起做
+EcoDynamics 从稳定性与瞬态放大出发，逐步连接群落模型、非线性扰动、时滞、记忆和顺序组装。文献研究与经验群落参数帮助我们理解同一个“稳定”在不同问题中意味着什么，也促使工具保留清楚的变量、历史条件和统计定义。
 
-一个工具能运行，只是别人开始使用它的一步。作者为什么这样设计，哪里改过，什么情况下结果会变化，这些经验也值得留下。
+两边都积累了比一次计算更多的东西：求解器怎样配合，哪些参数会影响结论，怎样从一张图找到配置与程序。我们把这些经验放进代码、案例和说明，供其他研究者直接使用，也欢迎新的问题帮助它们成长。
 
-我们希望项目背后能看见具体的人。项目作者讲述自己的选择，团队共同说明社区的方向。后来加入的人也可以提出不同看法，带来新的问题，继续发展这些工作。
+团队还在整理微信公众号内容与排版工具，将实际使用的内容样式转化为模板和工具。这部分尚在准备公开；后续入口会加入[研究与工具目录](docs/RESEARCH.md)。
 
-[读完整的创始宣言](https://github.com/Shenyan-kosmoX/.github/blob/main/MANIFESTO.md)
+## 为什么建立一个共同体
 
-## 找到我们
+研究常常需要长时间准备。读者找到代码之后，仍可能花很多精力寻找合适的环境、输入文件和结果解释。我们希望共同把这段路铺得清楚一些，让更多时间可以用来思考问题、比较方法和探索新的可能。
 
-初期项目提案由 [@wenkuizhao261-pixel](https://github.com/wenkuizhao261-pixel) 接手。可以直接 [介绍你的项目](https://github.com/Shenyan-kosmoX/community/discussions/new?category=ideas)，也可以先 [聊一个问题](https://github.com/Shenyan-kosmoX/community/discussions/new?category=general)。
+Shenyan 以 AI for Science 为主线。我们愿意把人和 AI 都能阅读、运行与继续开发的科研设施维护下去，也希望不同学科的参与者能在这里交换经验。有人熟悉方程，有人擅长数值方法，有人发现文档里缺少的一步，这些贡献都能让一项工作更容易被继承。
 
-社区由创业团队发起和支持，公开成果按照各项目许可证复用。贡献与数据使用的具体约定见 [许可说明](LICENSING.md)；谁负责哪些事情见 [联系与协作](GOVERNANCE.md)。
+已经发布的 [SORS 0.1](standards/SORS/SORS.md)来自这样的实践：项目怎样介绍自己，案例怎样连接输入、方法和结果，常见遗漏怎样通过自动检查及时发现。共同约定让协作更省力，领域细节则由做研究的人继续充实。
+
+[我们的理念](https://github.com/Shenyan-kosmoX/.github/blob/main/MANIFESTO.md)
+
+## 联系我们
+
+目前可以通过 GitHub 联系 [@wenkuizhao261-pixel](https://github.com/wenkuizhao261-pixel)。项目提案请发在 [这里](https://github.com/Shenyan-kosmoX/community/discussions/new?category=ideas)，具体想法和问题可以到 [讨论区](https://github.com/Shenyan-kosmoX/community/discussions) 交流。
+
+<!-- Future contact block: add founder-supplied public email and WeChat QR image here. -->
