@@ -1,0 +1,479 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/Shenyan-kosmoX/community/blob/main/standards/SORS/schemas/project.schema.json",
+  "title": "SORS 0.1 project index",
+  "$defs": {
+    "record": {
+      "oneOf": [
+        {
+          "type": "object",
+          "properties": {
+            "path": {
+              "type": "string",
+              "minLength": 1
+            },
+            "locator": {
+              "type": "string",
+              "minLength": 1,
+              "pattern": "\\S"
+            },
+            "description": {
+              "type": "string",
+              "minLength": 1,
+              "pattern": "\\S"
+            }
+          },
+          "required": [
+            "path"
+          ],
+          "additionalProperties": true,
+          "not": {
+            "anyOf": [
+              {
+                "required": [
+                  "url"
+                ]
+              },
+              {
+                "properties": {
+                  "availability": {
+                    "const": "not_bundled"
+                  }
+                },
+                "required": [
+                  "availability"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "object",
+          "properties": {
+            "url": {
+              "type": "string",
+              "minLength": 1,
+              "pattern": "\\S"
+            },
+            "locator": {
+              "type": "string",
+              "minLength": 1,
+              "pattern": "\\S"
+            },
+            "description": {
+              "type": "string",
+              "minLength": 1,
+              "pattern": "\\S"
+            }
+          },
+          "required": [
+            "url"
+          ],
+          "additionalProperties": true,
+          "not": {
+            "anyOf": [
+              {
+                "required": [
+                  "path"
+                ]
+              },
+              {
+                "properties": {
+                  "availability": {
+                    "const": "not_bundled"
+                  }
+                },
+                "required": [
+                  "availability"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "object",
+          "properties": {
+            "availability": {
+              "const": "not_bundled"
+            },
+            "description": {
+              "type": "string",
+              "minLength": 1,
+              "pattern": "\\S"
+            },
+            "retrieval": {
+              "type": "string",
+              "minLength": 1,
+              "pattern": "\\S"
+            }
+          },
+          "required": [
+            "availability",
+            "description",
+            "retrieval"
+          ],
+          "additionalProperties": true,
+          "not": {
+            "anyOf": [
+              {
+                "required": [
+                  "path"
+                ]
+              },
+              {
+                "required": [
+                  "url"
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "const": "0.1"
+    },
+    "kind": {
+      "const": "project"
+    },
+    "project": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9][A-Za-z0-9._-]*$"
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "\\S"
+        },
+        "domain": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "\\S"
+        },
+        "stage": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "\\S"
+        },
+        "maintainers": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[A-Za-z0-9][A-Za-z0-9-]{0,38}$"
+          },
+          "minItems": 1
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "domain",
+        "stage",
+        "maintainers"
+      ],
+      "additionalProperties": true
+    },
+    "documents": {
+      "type": "object",
+      "properties": {
+        "overview": {
+          "type": "string",
+          "minLength": 1
+        },
+        "research": {
+          "type": "string",
+          "minLength": 1
+        },
+        "usage": {
+          "type": "string",
+          "minLength": 1
+        },
+        "validation": {
+          "type": "string",
+          "minLength": 1
+        },
+        "limitations": {
+          "type": "string",
+          "minLength": 1
+        },
+        "sources": {
+          "type": "string",
+          "minLength": 1
+        },
+        "contributing": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "overview",
+        "research",
+        "usage",
+        "validation",
+        "limitations",
+        "sources",
+        "contributing"
+      ],
+      "additionalProperties": true
+    },
+    "capabilities": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[A-Za-z0-9][A-Za-z0-9._-]*$"
+          },
+          "description": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "\\S"
+          },
+          "record": {
+            "$ref": "#/$defs/record"
+          },
+          "documentation": {
+            "oneOf": [
+              {
+                "type": "string",
+                "minLength": 1
+              },
+              {
+                "$ref": "#/$defs/record"
+              }
+            ]
+          }
+        },
+        "required": [
+          "id",
+          "description"
+        ],
+        "additionalProperties": true
+      },
+      "minItems": 1
+    },
+    "environments": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[A-Za-z0-9][A-Za-z0-9._-]*$"
+          },
+          "description": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "\\S"
+          },
+          "platforms": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1,
+              "pattern": "\\S"
+            },
+            "minItems": 1
+          },
+          "dependency_files": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "minItems": 0
+          },
+          "setup_steps": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "argv": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "minLength": 1,
+                    "pattern": "\\S"
+                  },
+                  "minItems": 1
+                },
+                "cwd": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "timeout_seconds": {
+                  "type": "integer",
+                  "minimum": 1,
+                  "maximum": 86400
+                }
+              },
+              "required": [
+                "argv"
+              ],
+              "additionalProperties": true
+            },
+            "minItems": 0
+          }
+        },
+        "required": [
+          "id",
+          "description",
+          "platforms"
+        ],
+        "additionalProperties": true
+      },
+      "minItems": 1
+    },
+    "assets": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[A-Za-z0-9][A-Za-z0-9._-]*$"
+          },
+          "description": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "\\S"
+          },
+          "record": {
+            "$ref": "#/$defs/record"
+          }
+        },
+        "required": [
+          "id",
+          "description"
+        ],
+        "additionalProperties": true
+      },
+      "minItems": 0
+    },
+    "cases": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[A-Za-z0-9][A-Za-z0-9._-]*$"
+          },
+          "manifest": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "required": [
+          "id",
+          "manifest"
+        ],
+        "additionalProperties": true
+      },
+      "minItems": 1
+    },
+    "licensing": {
+      "type": "object",
+      "properties": {
+        "code_license": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "\\S"
+        },
+        "license_file": {
+          "type": "string",
+          "minLength": 1
+        },
+        "sources": {
+          "oneOf": [
+            {
+              "type": "string",
+              "minLength": 1
+            },
+            {
+              "$ref": "#/$defs/record"
+            }
+          ]
+        },
+        "details": {
+          "oneOf": [
+            {
+              "type": "string",
+              "minLength": 1
+            },
+            {
+              "$ref": "#/$defs/record"
+            }
+          ]
+        }
+      },
+      "required": [
+        "code_license",
+        "license_file"
+      ],
+      "additionalProperties": true,
+      "anyOf": [
+        {
+          "required": [
+            "sources"
+          ]
+        },
+        {
+          "required": [
+            "details"
+          ]
+        }
+      ]
+    },
+    "extensions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[A-Za-z0-9][A-Za-z0-9._-]*$"
+          },
+          "version": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "\\S"
+          },
+          "description": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "\\S"
+          },
+          "record": {
+            "$ref": "#/$defs/record"
+          }
+        },
+        "required": [
+          "id"
+        ],
+        "additionalProperties": true
+      },
+      "minItems": 0
+    }
+  },
+  "required": [
+    "schema_version",
+    "kind",
+    "project",
+    "documents",
+    "capabilities",
+    "environments",
+    "assets",
+    "cases",
+    "licensing",
+    "extensions"
+  ],
+  "additionalProperties": true
+}
