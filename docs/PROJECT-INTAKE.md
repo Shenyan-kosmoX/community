@@ -35,8 +35,15 @@
 | --- | --- |
 | [EcoDynamics](https://github.com/Shenyan-kosmoX/ecodynamics) | 生态动力学能力、基础案例、文献比较与多个 Python 环境的连接 |
 | [Floquet–Maxwell](https://github.com/Shenyan-kosmoX/floquet-maxwell) | 较完整的工具箱能力地图、多种计算后端、20 项案例及大型结果的分发 |
+| [WeChat Content Studio](https://github.com/Shenyan-kosmoX/wechat-content-studio) | 一个工具项目包含三个 skill，共享 Core 与 CLI；用功能检查和文章示例连接使用方法 |
 
-两者使用同一套索引，专业内容保存在各自的模型、配置与结果说明中。选择与你的项目接近的部分参考即可。
+这些项目使用共同的材料索引，各自选择适合的验证方法。科学计算记录模型与数值参照，内容工具检查文章结构、输出文件和复制入口。选择与你的项目接近的部分参考即可。
+
+## 项目和 skill 怎样分类
+
+每个项目按领域、提供形式和主要用途登记。领域可以有多个；一个项目既可以提供 Python 库，也可以提供 CLI 或 Agent skill。完整目录只保留一份项目条目。
+
+多个 skill 共用同一套程序与版本时，放在所属项目中维护，目录链接到各自入口。你可以提交完整的工具项目，也可以提交能独立使用和维护的 skill；说明安装方式、依赖和使用案例即可。[目录整理方式](CATALOG.md)供维护者登记时参考。
 
 ## 发布与后续贡献
 

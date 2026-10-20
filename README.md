@@ -6,14 +6,15 @@
 
 ## 从已有研究开始
 
-Floquet–Maxwell 和 EcoDynamics 已经开放。两个项目分别围绕时空调制光子晶体与生态动力学，积累了数值工具、文献案例和检查方法。你可以先浏览成果，也可以在本地运行一个与自己问题有关的例子。
+Floquet–Maxwell 和 EcoDynamics 围绕时空调制光子晶体与生态动力学提供数值工具、文献案例和检查方法。WeChat Content Studio 则提供文章整理、排版与个人风格管理工具。可以先选择眼下用得上的项目，再进入具体案例或 skill。
 
-| 项目 | 研究方向 | 当前状态 |
+| 项目 | 可以做什么 | 提供形式 |
 | --- | --- | --- |
-| [Floquet–Maxwell](https://github.com/Shenyan-kosmoX/floquet-maxwell) | 时空调制光子晶体、开放动力学与散射 | MIT开源 · 17类能力与20项研究案例 |
-| [EcoDynamics](https://github.com/Shenyan-kosmoX/ecodynamics) | 生态稳定性、瞬态响应、时滞与群落组装 | MIT开源 · 9类能力与8项研究案例 |
+| [Floquet–Maxwell](https://github.com/Shenyan-kosmoX/floquet-maxwell) | 计算材料调制引起的光场、增长、传播与散射变化 | 计算工具箱、Python 库 |
+| [EcoDynamics](https://github.com/Shenyan-kosmoX/ecodynamics) | 分析群落稳定性、扰动放大、延迟效应与长期组装 | 计算工具箱、Python 库 |
+| [WeChat Content Studio](https://github.com/Shenyan-kosmoX/wechat-content-studio) | 整理文章与图片，生成预览和富文本，管理自己的样式 | Agent skill、CLI、Python 库 |
 
-[研究与工具目录](docs/RESEARCH.md)提供功能、案例和安装入口。对某个结果有疑问时，欢迎在对应项目的 Issue 中附上参数、命令和观察；如果问题横跨多个方向，也很适合在社区讨论区展开。
+[研究与工具目录](docs/RESEARCH.md)按领域和使用方式提供索引，连接各项目的能力、案例、安装和 skill 入口。对某个结果有疑问时，在对应项目的 Issue 附上输入、步骤和观察；跨项目的方法问题可以到社区讨论区交流。
 
 ## 找到你需要的入口
 

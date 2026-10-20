@@ -80,6 +80,8 @@ def check(root, profile=None):
     rendered = render(root)
     if (root / "README.md").read_text(encoding="utf-8") != rendered["community"]:
         errors.append("README drift: run tools/build.py")
+    if not (root / "docs/RESEARCH.md").is_file() or (root / "docs/RESEARCH.md").read_text(encoding="utf-8") != rendered["catalog"]:
+        errors.append("Project catalog drift: run tools/build.py")
     expected_owners = "* " + " ".join("@" + name for name in cfg["maintainers"]) + "\n"
     if (root / ".github/CODEOWNERS").read_text(encoding="utf-8") != expected_owners:
         errors.append("CODEOWNERS drift: rebuild and verify maintainer permissions")
