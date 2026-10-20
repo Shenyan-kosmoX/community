@@ -1,8 +1,10 @@
-# 参与 Shenyan-kosmoX
+# 参与深研
 
 这里是社区的公共交流入口。可以带来一个正在思考的科学问题，也可以分享使用工具的经验、计算中的差异，或希望一起完善的项目。具体代码和研究案例在各项目仓库中推进，跨项目的方法与想法在这里相遇。
 
 [组织主页](https://github.com/Shenyan-kosmoX) · [发起团队](ABOUT.md) · [第一次参与](START-HERE.md)
+
+想了解社区从哪里开始，可以读 [我为什么开始](stories/WHY-I-STARTED.md) 和 [我们为什么建设深研](stories/WHY-WE-BUILD.md)。
 
 ## 从已有研究开始
 
