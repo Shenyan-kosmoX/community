@@ -4,7 +4,7 @@
 
 [组织主页](https://github.com/Shenyan-kosmoX) · [发起团队](ABOUT.md) · [第一次参与](START-HERE.md)
 
-想了解社区从哪里开始，可以读 [我为什么开始](stories/WHY-I-STARTED.md) 和 [我们为什么建设深研](stories/WHY-WE-BUILD.md)。
+想了解社区从哪里开始，可以读 [我为什么开始](stories/WHY-I-STARTED.md) 和 [我们为什么建设深研](stories/WHY-WE-BUILD.md)。关于跨学科学习、问题选择和反馈方法，见 [How We Research](stories/HOW-WE-RESEARCH.md)。
 
 ## 从已有研究开始
 

@@ -13,4 +13,6 @@ SORS 0.1 · 2026-10-20
 
 机器可读定义：[项目 Schema](schemas/project.schema.json) · [案例 Schema](schemas/case.schema.json)。
 
+想了解发起人怎样选择研究问题、使用 AI 并建立反馈，可以阅读 [How We Research](../../stories/HOW-WE-RESEARCH.md)。这篇个人方法思考与 SORS 的材料组织指南相互连接，供参与者按研究需要参考。
+
 项目可以保留原有目录和学科习惯；完整能力与案例目录展示已有积累，轻量例子帮助新使用者开始。普通项目提交无需附带聊天记录或详细协作回顾。

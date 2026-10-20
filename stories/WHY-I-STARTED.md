@@ -34,4 +34,4 @@
 
 ---
 
-[继续阅读：我们为什么建设深研](WHY-WE-BUILD.md) · [发起团队](../ABOUT.md) · [参与深研](../START-HERE.md)
+[继续阅读：我们为什么建设深研](WHY-WE-BUILD.md) · [How We Research](HOW-WE-RESEARCH.md) · [发起团队](../ABOUT.md) · [参与深研](../START-HERE.md)
