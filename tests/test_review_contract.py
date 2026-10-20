@@ -129,7 +129,7 @@ class ContractTests(unittest.TestCase):
         p.write_text("on:\n  pull_request_target:\npermissions:\n  contents: write\njobs: {}\n", encoding="utf-8")
         self.assertTrue(validate_yaml(p))
 
-    def test_new_organization_renders_without_old_links(self):
+    def test_new_organization_updates_routes_and_preserves_project_locations(self):
         (self.root / "content").mkdir()
         import shutil
         for path in (ROOT / "content").glob("*.md"):
@@ -137,9 +137,14 @@ class ContractTests(unittest.TestCase):
         cfg = json.loads((ROOT / "community.json").read_text(encoding="utf-8"))
         cfg["organization"] = "Migration-Rehearsal"
         cfg["maintainers"] = ["another-maintainer"]
+        cfg["projects"] = [{"name": "Existing project", "direction": "Numerical research",
+                            "status": "Public", "verified": True,
+                            "url": "https://github.com/Shenyan-kosmoX/existing-project"}]
         (self.root / "community.json").write_text(json.dumps(cfg), encoding="utf-8")
         for text in render(self.root).values():
-            self.assertNotIn("github.com/Shenyan-kosmoX/", text)
+            self.assertNotIn("github.com/Shenyan-kosmoX/community", text)
+            self.assertNotIn("github.com/Shenyan-kosmoX/.github", text)
+            self.assertIn("github.com/Shenyan-kosmoX/existing-project", text)
             self.assertIn("Migration-Rehearsal", text)
 
     def test_full_local_migration_preserves_valid_links_and_resets_activation(self):
