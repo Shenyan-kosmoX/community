@@ -133,7 +133,9 @@ def render_catalog(cfg, projects):
             lines += ["", f"## {title}", "", "| 提供形式 | 项目 |", "| --- | --- |"]
         tags = dict.fromkeys(tag for p in projects for tag in p[field])
         for tag in tags:
-            entries = " · ".join(f"[{p['name']}](#project-{p['id']})" for p in projects if tag in p[field])
+            # GitHub sanitizes custom IDs with a user-content- prefix. Link to
+            # the actual DOM ID so native fragment navigation also works.
+            entries = " · ".join(f"[{p['name']}](#user-content-project-{p['id']})" for p in projects if tag in p[field])
             lines.append(f"| {tag} | {entries} |")
         if not tags:
             lines.append("| 整理中 | 可以先从社区讨论开始 |")

@@ -41,7 +41,7 @@ class CatalogTests(unittest.TestCase):
         catalog = self.rendered()["catalog"]
         self.assertEqual(catalog.count("## Example Research\n"), 1)
         self.assertEqual(catalog.count('id="project-example-research"'), 1)
-        self.assertEqual(catalog.count("[Example Research](#project-example-research)"), 4)
+        self.assertEqual(catalog.count("[Example Research](#user-content-project-example-research)"), 4)
         for label in ("物理", "数学", "Python 库", "CLI"):
             self.assertIn(f"| {label} | [Example Research]", catalog)
 
