@@ -34,4 +34,4 @@
 
 ---
 
-[上一篇：我为什么开始](WHY-I-STARTED.md) · [发起团队](../ABOUT.md) · [研究与工具](../docs/RESEARCH.md) · [参与深研](../START-HERE.md)
+[上一篇：我为什么开始](WHY-I-STARTED.md) · [继续阅读：How We Research](HOW-WE-RESEARCH.md) · [发起团队](../ABOUT.md) · [研究与工具](../docs/RESEARCH.md) · [参与深研](../START-HERE.md)
