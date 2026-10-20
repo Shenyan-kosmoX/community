@@ -6,20 +6,20 @@
 
 | 领域 | 项目 |
 | --- | --- |
-| 光子学 | [Floquet–Maxwell](#project-floquet-maxwell) |
-| 时变电磁学 | [Floquet–Maxwell](#project-floquet-maxwell) |
-| 生态学 | [EcoDynamics](#project-ecodynamics) |
-| 动力系统 | [EcoDynamics](#project-ecodynamics) |
-| 写作与表达 | [WeChat Content Studio](#project-wechat-content-studio) |
+| 光子学 | [Floquet–Maxwell](#user-content-project-floquet-maxwell) |
+| 时变电磁学 | [Floquet–Maxwell](#user-content-project-floquet-maxwell) |
+| 生态学 | [EcoDynamics](#user-content-project-ecodynamics) |
+| 动力系统 | [EcoDynamics](#user-content-project-ecodynamics) |
+| 写作与表达 | [WeChat Content Studio](#user-content-project-wechat-content-studio) |
 
 ## 按使用方式找
 
 | 提供形式 | 项目 |
 | --- | --- |
-| 计算工具箱 | [Floquet–Maxwell](#project-floquet-maxwell) · [EcoDynamics](#project-ecodynamics) |
-| Python 库 | [Floquet–Maxwell](#project-floquet-maxwell) · [EcoDynamics](#project-ecodynamics) · [WeChat Content Studio](#project-wechat-content-studio) |
-| Agent skill | [WeChat Content Studio](#project-wechat-content-studio) |
-| CLI | [WeChat Content Studio](#project-wechat-content-studio) |
+| 计算工具箱 | [Floquet–Maxwell](#user-content-project-floquet-maxwell) · [EcoDynamics](#user-content-project-ecodynamics) |
+| Python 库 | [Floquet–Maxwell](#user-content-project-floquet-maxwell) · [EcoDynamics](#user-content-project-ecodynamics) · [WeChat Content Studio](#user-content-project-wechat-content-studio) |
+| Agent skill | [WeChat Content Studio](#user-content-project-wechat-content-studio) |
+| CLI | [WeChat Content Studio](#user-content-project-wechat-content-studio) |
 
 <a id="project-floquet-maxwell"></a>
 
